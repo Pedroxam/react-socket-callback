@@ -8,7 +8,7 @@ An easy way to send and get response from socket in one request
 
 <b>Example:</b>
 
-<code>
+<p>
 myFunction() {
   //Data to send
   var data = {
@@ -20,4 +20,4 @@ myFunction() {
     });
   }
 
-</code>
+</p>
