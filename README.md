@@ -8,16 +8,17 @@ An easy way to send and get response from socket in one request
 
 <b>Example:</b>
 
-<p style="white-space:pre">
+<code>
+  
 myFunction() {
   //Data to send
   var data = {
     option1: 1,
     option2: 2
   }
-    SocketData(data, function(result) {
+    <b>SocketData(data, function(result) {
       console.log(result); // Get socket result in here
-    });
+    });</b>
   }
 
-</p>
+</code>
