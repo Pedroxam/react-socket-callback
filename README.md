@@ -8,7 +8,7 @@ An easy way to send and get response from socket in one request
 
 <b>Example:</b>
 
-<p>
+<p style="white-space:pre">
 myFunction() {
   //Data to send
   var data = {
