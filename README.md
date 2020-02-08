@@ -10,8 +10,14 @@ An easy way to send and get response from socket in one request
 
 <pre>
   
-SocketData({ option1: 1, option2: 2 }, function(result) {
-      console.log(result); // get socket result in here
-    });
+//Data To Send  
+var data = {
+    option: 1,
+    option: 2
+}
+  
+SocketData(data, function(result) {
+      console.log(result); // Get socket result in here
+});
 
 </pre>
