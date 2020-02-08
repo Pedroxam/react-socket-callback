@@ -1,2 +1,20 @@
 # react-socket-callback
-An ease way to send and get response from socket in one request
+An easy way to send and get response from socket in one request
+
+
+
+<b>import SocketData from "./client/socket";</b>
+
+
+<b>Example:</b>
+
+myFunction() {
+  //Data to send
+  var data = {
+    option1: 1,
+    option2: 2
+  }
+    SocketData(data, function(result) {
+      console.log(result); // Get socket result in here
+    });
+  }
